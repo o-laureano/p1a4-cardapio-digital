@@ -3,50 +3,34 @@
   padding: 0;
 }
 
-header {
-  width: 100%;
-  font-size: 12px;
-  padding: 10px 30px;
-  background-color: #772C1E;
-  max-height: 100px;
-}
-
-footer {
-  color: white;
-  width: 100%;
-  font-size: 12px;
-  padding: 10px 30px;
-  background-color: #772C1E;
-  max-height: 150px;
-}
-
 body {
   text-align: center;
   color: #222222;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
-  background-color: #fff2e9;
+  background-color: #fff8f6;
   height: 100vh;
 }
 
+header, footer {
+  width: 100%;
+  font-size: 12px;
+  padding: 10px 30px;
+  background-color: #fff387;
+}
+
+header {
+  max-height: 150px;
+}
+
 footer {
+  color: rgb(0, 0, 0);
+  max-height: 150px;
   display: inline-block;
   text-align: center;
 }
 
-h1 {
-  color: #1c8e00;
-}
-
-div, section {
-  margin: 32px;
-}
-
-.logo {
-  width: 70px;
-}
-
-.logo-footer {
+.logo, .logo-footer {
   width: 70px;
 }
 
@@ -74,22 +58,21 @@ input {
   box-sizing: border-box; /* Garante que o padding não aumente a largura do input */
 }
 
-
-.social {
-  margin: 0;
-}
-
-.logo-social {
-  width: 20px;
-}
-
 .cardapio {
   font-size: 10px; /* Remove espaçamento entre os elementos inline-block */
   text-align: center; /* Alinha os elementos no centro */
 }
 
+h1 {
+  color: #1c8e00;
+}
+
 h2 {
   font-size: 20px;
+}
+
+div, section {
+  margin: 32px;
 }
 
 .item {
@@ -128,6 +111,6 @@ h2 {
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 20px;
 }
